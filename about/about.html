@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="about.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>about</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <nav id='nav-animation'>
+        <img class='nav-icon' src='../images/nav-icon-white.png' alt='NAVIGATION'>
+          <ul class="nav-links">
+            <li id='li-1'><a href='../index.html'>home</a></li>
+            <li id='li-2'><a href='../works/works.html'>works</a></li>
+            <li id='li-3'><a href='../thoughts/thoughts.html'>thoughts</a></li>
+            <li id='li-4'><a href='about.html'>about</a></li>
+          </ul>
+      </nav>
+
+      <header>
+        <h1>about me</h1>
+      </header>
+      <div class='welcome'>
+        <p>Hi,</p>
+        <br>
+        <p>Welcome to my portfolio site.<br>
+        <br>
+        <p>I'm a software development student at Western Governors University looking for opportunities in the web development field. If you would like to get in touch, shoot me an email or use the contact form below.</p>
+      </div>
+
+      <picture class="profile-pic">
+        <img src='../images/profile.jpg' alt='Profile' height='400px' width='400px' style="border: 2px solid #434343; border-radius: 4px;">
+      </picture>
+
+<!-- CARDS -->
+      <div class="yes cards">
+        <h2>yes</h2>
+        <p class='card-text'>
+          - long runs<br>
+          - deep lore<br>
+          - vfr navigation<br>
+          - blast beats<br>
+        </p>
+      </div>
+      <div class="no cards">
+        <h2>no</h2>
+        <p class='card-text'>
+          - infinite scroll<br>
+          - noise<br>
+          - olives<br>
+        <p>
+      </div>
+      <div class="credentials cards">
+        <h2>credentials</h2>
+        <p class='card-text'>
+          - CIW Site Dev Associate<br>
+          - CompTIA A+<br>
+          - ITIL Foundation Level<br>
+        </p>
+      </div>
+      <div class="stack cards">
+        <h2>stack</h2>
+        <p class='card-text'>
+          - html / css / js<br>
+          - react<br>
+          - python<br>
+          - mysql<br>
+        </p>
+      </div>
+
+<!-- FORM -->
+      <div class='form-container'>
+        <h2 class='form-header'>Contact:</h2>
+        <form action='./contact_script.php' method='post'>
+          <label for='name'>Name:</label>
+            <input class='name' type='text' name='Name' required>
+            <br>
+            <br>
+          <label for='email'>Email:</label>
+            <input class='email' type='email' name='email' required size='50%'>
+            <br>
+            <br>
+          <label for='subject'>Subject:</label>
+            <br>
+            <input type='text' name-'subject' required>
+            <br>
+            <br>
+          <label for='message'>Message:</label>
+            <br>
+            <textarea name='message' rows='6' required></textarea>
+            <br>
+            <br>
+          <a href=''>
+            <button type='submit' value='submit'>Submit</button>
+          </a>
+        </form>
+      </div>
+
+    <footer>
+      <a href='https://www.linkedin.com/in/conner-linzy-527787196/'>
+        <img src='../images/linkedin.png' class='social' alt='Linkedin'>
+      </a>
+      <a href='https://github.com/clinzy25'>
+        <img src='../images/github.png' class='social' alt='Github'>
+      </a>
+      <a href='mailto:address..?subject=subject...&body=anything...&cc=ccconner.linzy25@gmail.com&bcc=bcc@gmail.com'>
+        <img src='../images/email.png' class='social' alt='Email'>
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
